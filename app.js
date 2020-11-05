@@ -18,8 +18,8 @@ const PORT = process.env.PORT || 8080; // Heroku defines the suitable PORT as an
 
 app.get("/org/:orgName", (req, res) => {
   const orgName = req.params.orgName;
-  const n = req.query.n;
-  const m = req.query.m;
+  const n = req.query.n ? req.query.n : 1;
+  const m = req.query.m ? req.query.m : 1;
   octokit.search
     .repos({
       q: `org:${orgName}`,  // scope search within the organization
