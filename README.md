@@ -4,7 +4,7 @@
 
 ### Try the API on Heroku now!
 
-[![Heroku](https://heroku-badge.herokuapp.com/?app=quiet-atoll-37147&root=org/microsoft?n=1&m=1)](https://quiet-atoll-37147.herokuapp.com/org/microsoft?n=1&m=1)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=quiet-atoll-37147&root=ping)](https://quiet-atoll-37147.herokuapp.com/org/microsoft?n=2&m=4)
 
 ## Getting Started
 
