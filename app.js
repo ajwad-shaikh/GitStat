@@ -7,6 +7,8 @@ const octokit = new Octokit({
   auth: process.env.GITHUB_AUTH_TOKEN,
 });
 
+const PORT = process.env.PORT || 8080;
+
 app.get("/org/:orgName", (req, res) => {
   const orgName = req.params.orgName;
   const n = req.query.n;
@@ -62,6 +64,6 @@ app.get("/org/:orgName", (req, res) => {
     });
 });
 
-app.listen(3000, () => {
-  console.log("Server running on port 3000");
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
