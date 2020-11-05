@@ -1,6 +1,6 @@
 # GitStat
 
-> An API that serves top forked repositories and most active committees on them from any organizations
+> An API that serves the ✨ top ✨ forked repositories and the most active 👩‍💻 committees 👨‍💻 on them from an organization on GitHub.
 
 ### Try the API on Heroku now!
 
